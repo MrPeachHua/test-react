@@ -1,0 +1,29 @@
+.settings {
+  padding: 80px 20px 20px 260px;
+}
+
+.settings-card {
+  margin-bottom: 30px;
+}
+
+.form-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+.form-section h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .settings {
+    padding: 80px 10px 20px 80px;
+  }
+}

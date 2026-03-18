@@ -1,0 +1,63 @@
+.dashboard {
+  padding: 80px 20px 20px 260px;
+}
+
+.stats-row {
+  margin-bottom: 30px;
+}
+
+.stat-card {
+  height: 100%;
+  text-align: center;
+}
+
+.stat-card .ant-statistic {
+  margin: 0;
+}
+
+.charts-row {
+  margin-bottom: 30px;
+}
+
+.chart-card {
+  height: 100%;
+}
+
+.activity-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.activity-time {
+  font-weight: bold;
+  color: #666;
+}
+
+.activity-action {
+  margin: 0 10px;
+}
+
+.activity-user {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 80px 10px 20px 80px;
+  }
+}
+
+/* Recharts custom styles */
+.recharts-wrapper text {
+  font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+.recharts-tooltip-label {
+  font-weight: bold;
+}
+
+.recharts-cartesian-grid line {
+  stroke: #333;
+}

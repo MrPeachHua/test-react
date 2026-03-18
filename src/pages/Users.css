@@ -1,0 +1,80 @@
+.users {
+  padding: 80px 20px 20px 260px;
+}
+
+.users-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.users-search {
+  margin-bottom: 20px;
+}
+
+.users-table {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.role-tag {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.role-tag.admin {
+  background-color: #f0f8ff;
+  color: #1890ff;
+  border: 1px solid #1890ff;
+}
+
+.role-tag.editor {
+  background-color: #f0fff4;
+  color: #52c41a;
+  border: 1px solid #52c41a;
+}
+
+.role-tag.user {
+  background-color: #fff0f0;
+  color: #ff4d4d;
+  border: 1px solid #ff4d4d;
+}
+
+.status-tag {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.status-tag.active {
+  background-color: #f0fff4;
+  color: #52c41a;
+  border: 1px solid #52c41a;
+}
+
+.status-tag.inactive {
+  background-color: #fff0f0;
+  color: #ff4d4d;
+  border: 1px solid #ff4d4d;
+}
+
+@media (max-width: 768px) {
+  .users {
+    padding: 80px 10px 20px 80px;
+  }
+  
+  .users-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .users-search {
+    width: 100%;
+  }
+}
