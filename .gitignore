@@ -1,0 +1,11 @@
+# React Project Ignore Rules
+node_modules/
+.DS_Store
+.env.local
+.env.*.local
+build/
+dist/
+coverage/
+*.log
+npm-debug.log*
+
