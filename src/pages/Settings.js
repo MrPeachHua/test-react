@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Input, Button, Card, Switch, message, Space, Select } from 'antd';
+import { Form, Input, Button, Card, Switch, message, Select } from 'antd';
 import { SaveOutlined, LockOutlined, MailOutlined, UserOutlined } from '@ant-design/icons';
 import './Settings.css';
 

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Table, Button, Input, Popconfirm, message, Space, Tag, DatePicker } from 'antd';
+import React, { useState } from 'react';
+import { Table, Button, Input, Popconfirm, message, Space, Tag } from 'antd';
 import { SearchOutlined, PlusCircleOutlined, EditOutlined, DeleteOutlined } from '@ant-design/icons';
 import './Products.css';
 
